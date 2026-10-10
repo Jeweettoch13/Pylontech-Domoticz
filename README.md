@@ -18,6 +18,7 @@ Test target: **FH3X-15K-HY-3P-EU** using the Pylontech Global RESS portal.
 
 ## Installation
 
+0. Global ress account reuired trough https://global-ress.pylontech.com.cn/login
 1. Unzip the `PylontechH3X` directory into the Domoticz Python plugins directory.
 2. Restart Domoticz.
 3. Go to **Setup -> Hardware -> Add Hardware**.
@@ -29,7 +30,3 @@ Test target: **FH3X-15K-HY-3P-EU** using the Pylontech Global RESS portal.
 ## Important Docker note
 
 Keep your existing `/opt/domoticz/userdata` volume untouched. The plugin creates its own devices and does not alter or replace the Domoticz database.
-
-## Dashboard
-
-See `DASHBOARD_H3X_2026.2.md`. The dashboard is built with Domoticz 2026.2 Dynamic Dashboard and the existing Nightglass theme. The plugin package deliberately does **not** write directly to the Domoticz database to create a dashboard layout.
