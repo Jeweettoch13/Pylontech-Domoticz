@@ -18,7 +18,7 @@ Test target: **FH3X-15K-HY-3P-EU** using the Pylontech Global RESS portal.
 
 ## Installation
 
-0. Global ress account reuired trough https://global-ress.pylontech.com.cn/login
+0. Global ress account required trough https://global-ress.pylontech.com.cn/login
 1. Unzip the `PylontechH3X` directory into the Domoticz Python plugins directory.
 2. Restart Domoticz.
 3. Go to **Setup -> Hardware -> Add Hardware**.
